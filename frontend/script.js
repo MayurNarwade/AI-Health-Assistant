@@ -3,8 +3,8 @@
 // -------------------------------
 
 /* --------- Config --------- */
-const BACKEND_JSON_URL = "http://127.0.0.1:8000/predict"; // Try POST JSON first
-const BACKEND_GET_URL = "http://127.0.0.1:8000/predict";  // fallback GET
+const BACKEND_JSON_URL = "/api/predict";  // Vercel proxy // Try POST JSON first
+const BACKEND_GET_URL = "/api/predict";  // fallback GET
 const OVERPASS_API = "https://overpass-api.de/api/interpreter";
 const NEARBY_RADIUS = 5000; // meters
 const MAX_DOCTORS = 10;
